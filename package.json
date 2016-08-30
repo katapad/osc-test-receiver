@@ -1,0 +1,25 @@
+{
+  "name": "osc-test-receiver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "coffee ./src/App.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katapad/osc-test-receiver.git"
+  },
+  "author": "katapad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katapad/osc-test-receiver/issues"
+  },
+  "homepage": "https://github.com/katapad/osc-test-receiver#readme",
+  "dependencies": {
+    "coffee-script": "^1.10.0",
+    "log4js": "^0.6.38",
+    "minimist": "^1.2.0",
+    "node-osc": "^2.0.3"
+  }
+}
